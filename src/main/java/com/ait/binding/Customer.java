@@ -3,6 +3,8 @@ package com.ait.binding;
 import lombok.Data;
 
 @Data
+@Setter
+@Getter
 public class Customer {
 	
 	private Integer id;
